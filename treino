@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+Public class treino{
+
+public static void main (String[] main){
+
+Scanner sc = new Scanner (System.in); 
+
+int n1 = sc.nextInt();
+int n2 = sc.nextInt();
+int n3 = sc.nextInt();
+
+if ( n1== n2 && n2== n3){
+System.out.println("Os números são iguais: ");
+
+}else if (n1>n2 && n1>n3){
+System.out.println("O primeiro numero é maior");
+
+} else if n2> n1 && n2>n3{ 
+System.out.println("O segundo  numero é maior");
+
+} else { 
+System.out.println("O terceiro numero é maior");
+
+}
+sc.close(); 
+
+
+  }
+}
